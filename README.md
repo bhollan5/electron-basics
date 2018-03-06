@@ -6,9 +6,9 @@ ElectronJS is a framework for making desktop applications with webdev tools - Ja
 
 ## Requirements
 
-Electron runs on Node, which you can download (here)[https://nodejs.org/en/]. 
+Electron runs on Node, which you can download [here](https://nodejs.org/en/). 
 
-You'll also need a code text editor, I recommend (Brackets)[http://brackets.io/] or (Atom)[https://atom.io/]. 
+You'll also need a code text editor, I recommend [Brackets](http://brackets.io/) or [Atom](https://atom.io/). 
 
 Last but not least, you need access to your command line. 
 
