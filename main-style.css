@@ -1,0 +1,29 @@
+body {
+  background: skyblue;
+  font-family: sans-serif;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar {
+  background: darkblue;
+  color: gray;
+  padding: 10px;
+  min-width: 150px;
+}
+
+.opt:hover {
+  color: white;
+  background: blue;
+  cursor: pointer;
+}
+
+.sidebarHead {
+  font-size: 20px;
+  color: white;
+}
+
+#mainContent {
+  padding: 20px;
+}
