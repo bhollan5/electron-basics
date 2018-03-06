@@ -1,0 +1,23 @@
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <button onclick="killMole()">Press to kill mole</button>
+    <p id="mole">O</p>
+  </body>
+  <script>
+  var ipcRenderer = require('electron').ipcRenderer;
+    
+    function killMole() {
+      document.getElementById("mole").innerHTML = "O"
+    }
+    function callMole() {
+      document.getElementById("mole").innerHTML = "MOLE!!";
+    }
+    ipcRenderer.on('index', function (j) {
+      callMole();
+    });
+  
+  </script>
+</html>
